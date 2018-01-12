@@ -1,0 +1,46 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    {{ title }}
+  </h1>
+  <form>
+    <div>
+      <div class="dataRow">
+        <label for="inputprecipType">Precip Type</label>
+        <input type="text" id="inputprecipType">
+      </div>
+      <div class="dataRow">
+        <label for="inputTemperature">Temperature (C)</label>
+        <input type="text" id="inputTemperature">
+      </div>
+      <div class="dataRow">
+        <label for="inputApparentTemperature">Apparent Temperature</label>
+        <input type="text" id="inputApparentTemperature">
+      </div>
+      <div class="dataRow">
+        <label for="inputHumidity">Humidity</label>
+        <input type="text" id="inputHumidity">
+      </div>
+      <div class="dataRow">
+        <label for="inputWindSpeed">Wind Speed (km/h)</label>
+        <input type="text" id="inputWindSpeed">
+      </div>
+      <div class="dataRow">
+        <label for="inputWindBearing">Wind Bearing (Degrees)</label>
+        <input type="text" id="inputWindBearing">
+      </div>
+      <div class="dataRow">
+        <label for="inputVisibility">Visibility (km)</label>
+        <input type="text" id="inputVisibility">
+      </div>
+      <div class="dataRow">
+        <label for="inputPressure">Pressure (Millibars)</label>
+        <input type="text" id="inputPressure">
+      </div>
+      <button (click)="send()">Send</button>
+      <p>Summary:        {{ result }}</p>
+    </div>
+  </form>
+</div>
+
+
